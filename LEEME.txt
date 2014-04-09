@@ -1,0 +1,39 @@
+﻿Este es un programa para comprimir archivos con el algoritmo Deflate según el estandar Lempel-Ziv (LZ77).
+
+
+Para crear el archivo hay que situarse en esta carpeta mediante la consola de comandos y
+luego teclear:
+
+	$ make
+
+
+
+Una vez hecho esto, el ejecutable se crea en la carpeta bin.
+
+
+Para ejecutar el programa hay que teclear:
+
+	$ ./bin/mp2gzip <archivo_a_comprimir> [archivo_de_salida]
+
+
+
+Si no se escribe el archivo de salida, por defecto creará un archivo con el mismo nombre del archivo a comprimir,
+con la extensión .gz
+
+
+Para crear un archivo de documentación (aunque yo ya adjunto uno),
+hay que teclear lo siguiente:
+
+	$ cd doc
+	$ doxygen
+	$ cd latex
+	$ make
+
+
+
+Con estos comandos se creará un archivo refman.pdf, el cual contiene una informacion detallada del proyecto.
+
+
+
+NOTA: hice una codificación mejorada, pero solo me funciona con prueba1.txt,
+por eso no lo he incluido, pero le dejo la funcion en el .cpp
