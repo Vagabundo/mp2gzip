@@ -38,5 +38,5 @@ With these commands one refman.pdf file, which contains detailed information of 
 
 
 
-NOTE: I made an improved coding, but it only work with prueba1.txt, 
+NOTE: I made an improved coding, but it only works with prueba1.txt, 
 what I have not included, but I leave the function in the. cpp
